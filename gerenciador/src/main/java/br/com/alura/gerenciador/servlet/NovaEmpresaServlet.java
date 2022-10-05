@@ -18,6 +18,8 @@ public class NovaEmpresaServlet extends HttpServlet{
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException  {
 		
+		String nomeEmpresa = 
+		
 		PrintWriter out = resp.getWriter();
 		out.println("<html><head><meta charset='UTF-8'></head><body>Olá Mundo 3.0!</body></html>");
 		
